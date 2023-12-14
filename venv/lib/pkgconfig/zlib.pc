@@ -1,0 +1,13 @@
+prefix=/Users/digitalaxis/Desktop/Diamond_price_pridiction/venv
+exec_prefix=/Users/digitalaxis/Desktop/Diamond_price_pridiction/venv
+libdir=/Users/digitalaxis/Desktop/Diamond_price_pridiction/venv/lib
+sharedlibdir=/Users/digitalaxis/Desktop/Diamond_price_pridiction/venv/lib
+includedir=/Users/digitalaxis/Desktop/Diamond_price_pridiction/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
